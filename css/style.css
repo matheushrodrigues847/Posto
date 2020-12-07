@@ -1,0 +1,98 @@
+body,h1,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+}
+.container{
+    max-width: 1100px;
+    width: 80%;
+    margin: 0 auto;
+}
+.cabecario{
+    
+    padding: 1rem 0;
+    background: #f7f8f3;
+}
+.cabecario__bloco{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu__items{
+    display: flex;
+    text-decoration: none;
+}
+.menu__item{
+    text-decoration: none;
+    margin-left: 1.2rem;
+    list-style: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: .1em;
+}
+.menu__item a{
+    text-decoration: none;
+    color: #000;
+}
+.menu__item:hover{
+    text-decoration: underline;
+}
+main{
+    background: #f7444e;
+}
+.energia{
+    height: calc(100vh - 111.74px);
+    display: flex;
+    justify-content: space-around;
+}
+.energia__bloco{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.energia__tipos{
+    height: 300px;
+    border: 10px solid #002c3e;
+    border-radius: 5px;
+    background: #78bcc4;
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+}
+.energia__tipo{
+    width: 90%;
+    border: 1px solid;
+    margin: 1em auto;
+    border-radius: 10px;
+}
+.energia__tipo h2{
+    margin: 0 0 0 .9em;
+}
+.energia__tipo p{
+    text-align: center;
+    font-size: 2em;
+    background: #f7f8f3;
+    border-top: 1px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.energia__qtde{
+    width: calc(100% - 89px);
+}
+.energia__finalizar{
+    width: 100%;
+    margin: 1em 0;
+    padding: .7em;
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 2px 2px #f7f8f3;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}

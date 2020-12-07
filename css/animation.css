@@ -1,0 +1,31 @@
+@keyframes move{
+    from{
+        transform: translateX(3000px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+.animate--move{
+    animation-name: move;
+    animation-duration: 2000ms;
+}
+
+@keyframes down{
+    from{
+        
+        transform: translateY(-50px);
+    }
+    to{
+       
+
+        transform: translateY(0);
+    }
+}
+.animate--down{
+    animation-name: down;
+    animation-duration: 2500ms;
+}
+.menu__items:first-child{
+    animation-delay: 500ms;
+}

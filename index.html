@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecario">
+            <div class="cabecario__bloco container">
+                <div class="cabecario__logo">
+                    <img src="imagens/ford-mustang-146580.svg" class="cabecario__imagem animate--move">
+                    <h1 class="cabecario__titulo animate--down"> GasPrice</h1>
+                </div>
+    
+                <nav class="menu ">
+                    <ul class="menu__items ">
+                        <li class="menu__item animate--down"><a href="">Litros</a></li>
+                        <li class="menu__item animate--down"><a href="">Preço</a></li>
+                        <li class="menu__item animate--down"><a href="">Total</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="energia container">   
+                <div class="energia__bloco">
+                    <h1>Total de Combustível</h1>
+                    <div class="energia__tipos">
+                        <div class="energia__tipo">
+                            <h2>Gas</h2>
+                            <p>00000,0</p>
+                        </div>
+                        <div class="energia__tipo">
+                            <h2>Etanol</h2>
+                            <p>00000,0</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="energia__bloco">
+                    <div class="energia__compra">
+                        <h2>Compre o seu Combustível</h2>
+                        <h3>Selecione qual deseja comprar</h3>
+                        <select class="energia__opcao">
+                            <option value="1">Gasolina</option>
+                            <option value="2">Etanol</option>
+                        </select>
+                        <input class="energia__qtde" placeholder="Informe a quantidade em litros">
+                        
+                        <button class="energia__finalizar" onclick="">Comprar</button>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
