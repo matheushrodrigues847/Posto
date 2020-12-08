@@ -12,20 +12,14 @@
 }
 
 @keyframes down{
-    from{
-        
+    from{      
         transform: translateY(-50px);
     }
     to{
-       
-
         transform: translateY(0);
     }
 }
 .animate--down{
     animation-name: down;
     animation-duration: 2500ms;
-}
-.menu__items:first-child{
-    animation-delay: 500ms;
 }

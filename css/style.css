@@ -83,6 +83,18 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.borda--radius{
+    border: 0px;
+    border-radius: 5px;
+}
+.energia__escolha{
+    display: flex;
+    justify-content: space-between;
+}
+.energia__preco{
+    width: 20%;
+    margin: 0 0.4em;
+}
 .energia__qtde{
     width: calc(100% - 89px);
 }
@@ -95,4 +107,33 @@ main{
     box-shadow: 2px 2px #f7f8f3;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+}
+.energia__total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.energia__total p{
+    font-size: 1.4em;
+}
+.invisible{
+    display: none;
+}
+.energia__pedidos{
+    background:  #f7f8f3;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+.energia__tabela{
+    width: 100%;
+    text-align: center;
+}
+.verde{
+    color: green;
+}
+.laranja{
+    color: orange;
+}
+.vermelha{
+    color: red;
 }
